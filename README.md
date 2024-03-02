@@ -1,17 +1,54 @@
-# Simple REST API with Authentication
+# The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB
 
-This project is a simple REST API built with [TypeScript] that includes authentication functionality. It provides endpoints for managing [users].
 
-## Features
+This is a repository for a REST API tutorial using Node, Express, Typescript & MongoDB.
 
-- **User Authentication**: Secure endpoints with user authentication using [insert authentication method, e.g., JWT tokens].
-- **CRUD Operations**: Perform CRUD (Create, Read, Update, Delete) operations on [describe your resources].
-- **Token-Based Authentication**: Generate and validate authentication tokens for secure API access.
 
-## Setup
 
-1. **Clone the repository:**
+Features:
 
-   ```bash
-   git clone https://github.com/Cephrius/Cephrius_RestAPI.git
-   cd Cephrius_RestAPI
+- Environment, Typescript, Nodemon setup
+- MongoDB & Mongoose connect, Database creation
+- Controllers creation
+- Middlewares creation
+- Cookie based authentication
+- Postman testing
+- Create, Read, Update
+
+### Prerequisites
+
+**Node version 14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/AntonioErdeljac/ts-node-mongo-rest-api-tutorial.git
+```
+
+### Install packages
+
+```shell
+npm i
+```
+
+### Setup MongoDB URL
+
+In `src/index.ts`:
+
+```js
+const MONGO_URL = ''; // DB URI
+```
+
+### Start the app
+
+```shell
+npm start
+```
+
+## Available commands
+
+Running commands with npm `npm run [command]`
+
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `start`         | Starts a development instance of the app |
